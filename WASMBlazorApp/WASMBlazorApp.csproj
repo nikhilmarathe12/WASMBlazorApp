@@ -17,7 +17,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Pages\Login\" />
     <Folder Include="Pages\SharedComponents\" />
   </ItemGroup>
 
