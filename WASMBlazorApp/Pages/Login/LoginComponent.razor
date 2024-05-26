@@ -1,0 +1,17 @@
+﻿@page "/"
+<h3>User Login</h3>
+
+<div class="login-container">
+    <form>
+        <h3>Login</h3>
+        <div>
+            <label for="username">Username:</label>
+            <InputText id="username" @bind-Value="username" type="text" />
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <InputText id="password" @bind-Value="Password" type="password" />
+        </div>
+        <button type="submit">Login</button>
+    </form>
+</div>
